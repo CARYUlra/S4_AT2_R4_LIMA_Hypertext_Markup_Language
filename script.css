@@ -1,0 +1,37 @@
+  .imagem {
+    display: flex;         /* Coloca os filhos um ao lado do outro */
+    align-items: center;  /* Alinha verticalmente ao centro */
+    gap: 16px;            /* Espaçamento entre a imagem e o texto */
+    background-color: #000000; /* Cor de fundo preta */
+  }
+
+  .texto{
+    color: #ffffff;    
+  }
+  .subtitulo {
+    font-size: 3em;     /* Tamanho da fonte do subtítulo */
+    font-style: finger paint;
+    color: #555;          /* Cor do subtítulo */
+  }
+    body {
+        background-color: #000000;
+        }
+    header {  
+        background-color: rgb(155,155,255);/* Cor de fundo do cabeçalho */
+        color: white;               /* Cor do texto do cabeçalho */
+        text-align: center;         /* Centraliza o texto do cabeçalho */
+        padding: 15px 0;
+    }
+
+    footer {
+        background-color: rgb(155,155,255);/* Cor de fundo do roda pé */
+        color: rgb(0, 0, 0);               /* Cor do texto do roda pé */
+        text-align: center;                 /* Centraliza o texto do roda pé */
+        padding: 10px 0;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px 0;
+
+        width: 100%;
+        bottom: 0;
+    }
